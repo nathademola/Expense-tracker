@@ -1,74 +1,87 @@
-💰 Expense Tracker (CLI)
-A simple command-line expense tracker built with Python.
-This project allows users to enter expenses, store them in a list, and calculate the total amount spent.
-This project was built as part of Day 5: Lists and Mini Productivity Tools while learning Python fundamentals.
 
-🚀 Features
-Add multiple expenses
-Store expenses using Python lists
-Calculate total spending using sum()
-Simple and beginner-friendly CLI interface
-Real-life practical use case
+# 💰 Expense Tracker (CLI)
 
-🧠 Concepts Learned
-Python Lists
-User input (input())
-Type conversion (float)
-Loops (while)
-Accumulation with sum()
-Building CLI applications
+A **simple command-line expense tracker** built with **Python**.  
+This project allows users to enter expenses, store them in a list, and calculate the **total amount spent**.  
 
-🛠️ How It Works
-The program asks the user to enter expense amounts
-Each expense is stored in a list
-The user types done to stop entering expenses
-The program calculates and displays:
-All expenses entered
-Total amount spent
+This project was built as part of **Lists and Mini Productivity Tools** while learning Python fundamentals.
 
-▶️ How to Run the Program
-1️⃣ Clone the repository
-Bash
-git clone https://github.com/your-username/expense-tracker.git
-2️⃣ Navigate into the folder
-Bash
-cd expense-tracker
-3️⃣ Run the script
-Bash
-python expense_tracker.py
+## 🚀 Features
+- Add multiple expenses  
+- Store expenses using Python **lists**  
+- Calculate **total spending** using `sum()`  
+- **Simple and beginner-friendly CLI interface**  
+- Real-life practical use case
+## 🧠 Concepts Learned
+- Python **lists**  
+- **User input** with `input()`  
+- **Type conversion** (`float`)  
+- Loops (`while`)  
+- **Accumulation** with `sum()`  
+- Building **CLI applications**  
 
-📸 Sample Output
-Text
+## 🛠️ How It Works
+1. The program asks the user to enter expense amounts.  
+2. Each expense is stored in a **list**.  
+3. The user types `done` to stop entering expenses.  
+4. The program calculates and displays:  
+   - **All expenses entered**  
+   - **Total amount spent**  
+
+## ▶️ How to Run the Program
+
+### Steps
+1. Clone this repository:
+   ```bash 
+   git clone https://github.com/nathademola/expense-tracker.git
+
+2. Navigate into the project directory:
+   ```bash
+   cd expense-tracker
+
+3. Run the script:
+   ```bash
+   python expense_tracker.py
+
+##  📸 Sample Output
+
 Welcome to Expense Tracker
+
 Enter an expense amount or type 'done' to finish: 1500
+
 Enter an expense amount or type 'done' to finish: 300
+
 Enter an expense amount or type 'done' to finish: done
 
 Expense Summary
-Expenses: [1500.0, 300.0]
-Total Spent: ₦ 1800.0
 
-📂 Project Structure
-Copy code
+Expenses: [1500.0, 300.0]
+
+Total Spent: ₦ 1800.0
+## 📂 Project Structure
 
 expense-tracker/
-│
+
 ├── expense_tracker.py
+
 └── README.md
+## 📌 Requirements
 
-📌 Requirements
 Python 3.x
+## 👤 Author
 
-👤 Author
 OGUNRINDE ADEMOLA JONATHAN
+
 Civil Engineering Student | Aspiring Software Engineer
+
 University of Ibadan
+## 📄 License
 
-📄 License
 This project is open-source and free to use for learning purposes.
+## ⭐ Acknowledgment
 
-⭐ Acknowledgment
-Built as part of a structured Python learning roadmap focused on:
-Problem solving
-Real-life applications
-Mastering fundamentals before advanced topics
+Built as part of a structured Python learning roadmap, focusing on:
+
+• Problem solving
+• Real-life applications
+• Mastering fundamentals before advanced topics
